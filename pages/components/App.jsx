@@ -6,7 +6,7 @@ import Footer from "./Footer"
 
 function App() {
     return (
-    <div className="container py-3">
+    <div className="container py-3" style={{maxWidth:960}}>
         <Header />
         <Main />
         <Footer />

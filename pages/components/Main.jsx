@@ -1,5 +1,8 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { AiOutlineCheck } from "react-icons/ai";
+
+
 
 function Main(){
     return(
@@ -73,42 +76,42 @@ function Main(){
                 <tbody>
                 <tr>
                     <th scope="row" className="text-start">Public</th>
-                    <td>YES</td>
-                    <td>YES</td>
-                    <td>YES</td>
+                    <td><AiOutlineCheck/></td>
+                    <td><AiOutlineCheck/></td>
+                    <td><AiOutlineCheck/></td>
                 </tr>
                 <tr>
                     <th scope="row" className="text-start">Private</th>
                     <td></td>
-                    <td>YES</td>
-                    <td>YES</td>
+                    <td><AiOutlineCheck/></td>
+                    <td><AiOutlineCheck/></td>
                 </tr>
                 </tbody>
 
                 <tbody>
                 <tr>
                     <th scope="row" className="text-start">Permissions</th>
-                    <td>YES</td>
-                    <td>YES</td>
-                    <td>YES</td>
+                    <td><AiOutlineCheck/></td>
+                    <td><AiOutlineCheck/></td>
+                    <td><AiOutlineCheck/></td>
                 </tr>
                 <tr>
                     <th scope="row" className="text-start">Sharing</th>
                     <td></td>
-                    <td>YES</td>
-                    <td>YES</td>
+                    <td><AiOutlineCheck/></td>
+                    <td><AiOutlineCheck/></td>
                 </tr>
                 <tr>
                     <th scope="row" className="text-start">Unlimited members</th>
                     <td></td>
-                    <td>YES</td>
-                    <td>YES</td>
+                    <td><AiOutlineCheck/></td>
+                    <td><AiOutlineCheck/></td>
                 </tr>
                 <tr>
                     <th scope="row" className="text-start">Extra security</th>
                     <td></td>
                     <td></td>
-                    <td>YES</td>
+                    <td><AiOutlineCheck/></td>
                 </tr>
                 </tbody>
             </table>

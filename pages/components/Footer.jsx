@@ -1,15 +1,16 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Image from "next/image"
 
 function Footer(){
     return (
         <footer className="pt-4 my-md-5 pt-md-5 border-top">
             <div className="row">
             <div className="col-12 col-md">
-                <Image className="mb-2" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"/>
+                <img className="mb-2" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="24" height="19"/>
                 <small className="d-block mb-3 text-muted">&copy; 2017–2021</small>
             </div>
+            </div>
+            <div className="row">
             <div className="col-6 col-md">
                 <h5>Features</h5>
                 <ul className="list-unstyled text-small">
@@ -30,6 +31,8 @@ function Footer(){
                 <li className="mb-1"><a className="link-secondary text-decoration-none" href="#">Final resource</a></li>
                 </ul>
             </div>
+            </div>
+            <div className="row">
             <div className="col-6 col-md">
                 <h5>About</h5>
                 <ul className="list-unstyled text-small">
